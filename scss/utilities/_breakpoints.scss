@@ -8,6 +8,10 @@
   .intro-content, .outro-content {width: 70%}
   .skills-content {display: flex}
   .col-card {width: 50% !important}
+  .col-3:not(:last-child) {
+    border-right: 1px solid #D3D3D3 !important;
+    border-radius: 0 !important;
+  }
 }
 
 @media screen and (min-width: 1088px) {
