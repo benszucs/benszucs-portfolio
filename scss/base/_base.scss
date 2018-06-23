@@ -1,3 +1,68 @@
-body {
-  background-color: pink;
+// body, html {font-family: 'europa', sans-serif;}
+@font-face {
+  font-family: "BigNoodleTitling";
+  src: url("fonts/big_noodle_titling_oblique.ttf");
+}
+
+@font-face {
+  font-family: 'Heebo';
+  src: url("https://fonts.googleapis.com/css?family=Heebo:300");
+}
+
+h1, h2, h3, h4, h5, p {font-family: "Heebo", sans-serif}
+
+.text-center {text-align: center !important}
+
+.wrapper-lg {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.wrapper-sm {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.rounded {border-radius: 50%}
+
+.absolute {position: absolute}
+
+.white-text {color: white}
+
+.gold-text {color: $gold}
+
+.gold-bg {background-color: $gold}
+
+.text-shadow {text-shadow: #343a40 1px 1px;}
+
+.title-lg, .subtitle, .title-sm, .text {
+  word-break: break-word;
+  margin-bottom: 1.5rem;
+}
+
+.title-lg, .subtitle {
+  font-family: "heebo", sans-serif !important;
+}
+
+.title-lg {
+  font-weight: 800;
+  line-height: 1.125;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.title-sm {
+  font-size: 1.2rem;
+  font-weight: 800;
+  line-height: 1.125;
+}
+
+.text {
+  font-size: 0.9rem;
+  font-weight: 100;
+  line-height: 1.5;
 }
