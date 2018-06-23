@@ -9,17 +9,17 @@
   src: url("https://fonts.googleapis.com/css?family=Heebo:300");
 }
 
-h1, h2, h3, h4, h5, p {font-family: "Heebo", sans-serif}
+h1, h2, h3, h4, h5, p, ul, li {font-family: "Heebo", sans-serif}
 
 .text-center {text-align: center !important}
 
-.wrapper-lg {
+.wrapper {
   max-width: 960px;
   margin: 0 auto;
 }
 
-.wrapper-sm {
-  max-width: 960px;
+.narrow {
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -56,13 +56,13 @@ h1, h2, h3, h4, h5, p {font-family: "Heebo", sans-serif}
 }
 
 .title-sm {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   font-weight: 800;
   line-height: 1.125;
 }
 
 .text {
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 100;
   line-height: 1.5;
 }

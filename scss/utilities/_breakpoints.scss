@@ -5,9 +5,19 @@
 @media screen and (min-width: 769px) {
   .title-lg {font-size: 2.5rem !important}
   .intro-content {width: 60%}
+  .skills-content {display: flex}
 }
 
 @media screen and (min-width: 1088px) {
   .title-lg {font-size: 3rem !important}
   .subtitle {font-size: 1.5rem !important}
+  .wrapper {width: 960px !important}
+}
+
+@media screen and (min-width: 1280px) {
+  .wrapper {width: 1152px !important}
+}
+
+@media screen and (min-width: 1472px) {
+  .wrapper {width: 1344px !important}
 }
