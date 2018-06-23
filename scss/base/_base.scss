@@ -25,6 +25,13 @@ h1, h2, h3, h4, h5, p, ul, li {font-family: "Heebo", sans-serif}
 
 .rounded {border-radius: 50%}
 
+.border-radius {
+  display: block;
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
 .absolute {position: absolute}
 
 .white-text {color: white}
@@ -35,7 +42,7 @@ h1, h2, h3, h4, h5, p, ul, li {font-family: "Heebo", sans-serif}
 
 .text-shadow {text-shadow: #343a40 1px 1px;}
 
-.title-lg, .subtitle, .title-sm, .text {
+.title-lg, .subtitle, .title-sm, .text, .title-md {
   word-break: break-word;
   margin-bottom: 1.5rem;
 }
@@ -55,14 +62,30 @@ h1, h2, h3, h4, h5, p, ul, li {font-family: "Heebo", sans-serif}
   line-height: 1.5;
 }
 
-.title-sm {
-  font-size: 1.25rem;
+.title-sm, .title-md {
   font-weight: 800;
   line-height: 1.125;
+}
+
+.title-sm {
+  font-size: 1.25rem;
+}
+
+.title-md {
+  font-size: 1.5rem;
 }
 
 .text {
   font-size: 1rem;
   font-weight: 100;
   line-height: 1.5;
+}
+
+.skills, .projects {
+  padding: 5rem 1.5rem 5rem 1rem;
+  color: #4d4e4f !important;
+}
+
+.gap {
+  margin-bottom: 3rem !important;
 }

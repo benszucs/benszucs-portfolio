@@ -4,14 +4,18 @@
 
 @media screen and (min-width: 769px) {
   .title-lg {font-size: 2.5rem !important}
-  .intro-content {width: 60%}
+  .title-md {font-size: 2rem !important}
+  .intro-content, .outro-content {width: 70%}
   .skills-content {display: flex}
+  .col-card {width: 50% !important}
 }
 
 @media screen and (min-width: 1088px) {
   .title-lg {font-size: 3rem !important}
   .subtitle {font-size: 1.5rem !important}
   .wrapper {width: 960px !important}
+  .col-card {width: 33.33% !important}
+  .just-center {justify-content: center !important}
 }
 
 @media screen and (min-width: 1280px) {
