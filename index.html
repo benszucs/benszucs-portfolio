@@ -6,9 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-  <title>Document</title>
+  <title>Ben Szucs</title>
 </head>
 <body>
+
+
+
   <section class="hero">
     <div class="hero-container">
       <div class="hero-bg"></div>
@@ -36,7 +39,7 @@
     <div class="wrapper">
       <div class="intro-content">
         <h2 class="title-md text-center white-text">Hi, I'm Ben. Welcome to my website.</h2>
-        <p class="text text-center white-text">Since embarking on the journey of becoming a font-end web developer I've learnt and immersed myself in many languages and technologies, with the sole purpouse of becoming a productive, employable developer. I have only started coding in the Spring of 2017, and despite all the obstacles that came my way, I had one of the most fun and empowering years of my life. I have proven to myself that with enough hard-work and perseverence I am able to teach myself code and that one day I might just be able to call myself a Web Developer.</p>
+        <p class="text text-center white-text">Since embarking on the journey of becoming a front-end web developer I've learnt and immersed myself in many languages and technologies, with the sole purpouse of becoming a productive, employable developer. I have only started coding in the Spring of 2017, and despite all the obstacles that came my way, I had one of the most fun and empowering years of my life. I have proven to myself that with enough hard-work and perseverence I am able to teach myself code and that one day I might just be able to call myself a Web Developer.</p>
       </div>
     </div>
   </section>
@@ -113,7 +116,7 @@
               <div class="overlay-text">
                 <span class="overlay-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, expedita! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, modi.</span>
                 <div class="overlay-content">
-                  <span class="button overlay-button">Find out more</span>
+                  <span class="button overlay-button modal-button" id="project1">Find out more</span>
                 </div>
               </div>
             </div>
@@ -127,7 +130,7 @@
               <div class="overlay-text">
                 <span class="overlay-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, expedita! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, modi.</span>
                 <div class="overlay-content">
-                  <span class="button overlay-button">Find out more</span>
+                  <span class="button overlay-button modal-button" id="project2">Find out more</span>
                 </div>
               </div>
             </div>
@@ -141,7 +144,7 @@
               <div class="overlay-text">
                 <span class="overlay-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, expedita! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, modi.</span>
                 <div class="overlay-content">
-                  <span class="button overlay-button">Find out more</span>
+                  <span class="button overlay-button modal-button" id="project3">Find out more</span>
                 </div>
               </div>
             </div>
@@ -160,7 +163,7 @@
               <div class="overlay-text">
                 <span class="overlay-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, expedita! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, modi.</span>
                 <div class="overlay-content">
-                  <span class="button overlay-button">Find out more</span>
+                  <span class="button overlay-button modal-button" id="project4">Find out more</span>
                 </div>
               </div>
             </div>
@@ -173,7 +176,7 @@
               <div class="overlay-text">
                 <span class="overlay-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, expedita! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, modi.</span>
                 <div class="overlay-content">
-                  <span class="button overlay-button">Find out more</span>
+                  <span class="button overlay-button modal-button" id="project5">Find out more</span>
                 </div>
               </div>
             </div>
@@ -191,7 +194,7 @@
               <div class="overlay-text">
                 <span class="overlay-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, expedita! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, modi.</span>
                 <div class="overlay-content">
-                  <span class="button overlay-button">Find out more</span>
+                  <span class="button overlay-button modal-button" id="project6">Find out more</span>
                 </div>
               </div>
             </div>
@@ -204,7 +207,7 @@
               <div class="overlay-text">
                 <span class="overlay-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, expedita! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, modi.</span>
                 <div class="overlay-content">
-                  <span class="button overlay-button">Find out more</span>
+                  <span class="button overlay-button modal-button" id="project7">Find out more</span>
                 </div>
               </div>
             </div>
@@ -217,7 +220,7 @@
               <div class="overlay-text">
                 <span class="overlay-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, expedita! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, modi.</span>
                 <div class="overlay-content">
-                  <span class="button overlay-button">Find out more</span>
+                  <span class="button overlay-button modal-button" id="project8">Find out more</span>
                 </div>
               </div>
             </div>
@@ -270,5 +273,23 @@
     </div>
   </section>
 
+  <!-- Trigger/Open The Modal -->
+  <button class="myBtn">Open Modal</button>
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div id="modal-projects"></div>
+    </div>
+
+  </div>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/content.js"></script>
 </body>
 </html>

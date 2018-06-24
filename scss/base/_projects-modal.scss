@@ -1,0 +1,35 @@
+.modal-projects {
+  padding: 3rem 2rem 5rem 2rem;
+  font-family: "Heebo", sans-serif;
+}
+
+.modal-project-img {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+
+.fixed {
+  width: 33.33%;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.temp-container {
+  text-align: center;
+}
+
+.temp-title {
+  font-weight: 800;
+  line-height: 1.125;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.fixed > img {
+  border-radius: 12px;
+}

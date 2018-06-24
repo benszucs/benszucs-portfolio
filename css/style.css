@@ -109,6 +109,9 @@ h1, h2, h3, h4, h5, p, ul, li {
 .text-center {
   text-align: center !important; }
 
+.m-0 {
+  margin-bottom: 0 !important; }
+
 .wrapper {
   max-width: 960px;
   margin: 0 auto; }
@@ -401,5 +404,86 @@ h1, h2, h3, h4, h5, p, ul, li {
 
 .icons {
   margin: 3rem auto 3rem; }
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 100;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */ }
+
+/* Modal Content/Box */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: 15% auto;
+  /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #D3D3D3;
+  border-radius: 12px;
+  width: 80%;
+  /* Could be more or less, depending on screen size */ }
+
+/* The Close Button */
+.close {
+  color: #c5954e;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 2rem;
+  font-weight: 800;
+  border-radius: 100%;
+  transition: all .25s ease-in-out;
+  padding: 0 0.5rem 0 0.5rem; }
+
+.close:hover,
+.close:focus {
+  color: #4d4e4f;
+  text-decoration: none;
+  cursor: pointer; }
+
+.modal-projects {
+  padding: 3rem 2rem 5rem 2rem;
+  font-family: "Heebo", sans-serif; }
+
+.modal-project-img {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 12px; }
+
+.fixed {
+  width: 33.33%;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column; }
+
+.temp-container {
+  text-align: center; }
+
+.temp-title {
+  font-weight: 800;
+  line-height: 1.125;
+  font-size: 1.25rem;
+  margin-bottom: 1rem; }
+
+.fixed > img {
+  border-radius: 12px; }
 
 /*# sourceMappingURL=style.css.map */
