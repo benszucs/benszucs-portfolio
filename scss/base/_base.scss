@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, p, ul, li {font-family: "Heebo", sans-serif}
 
 .title-lg, .subtitle {
   font-family: "heebo", sans-serif !important;
-  
+
 }
 
 .title-lg {
@@ -82,6 +82,22 @@ h1, h2, h3, h4, h5, p, ul, li {font-family: "Heebo", sans-serif}
   font-size: 1rem;
   font-weight: 100;
   line-height: 1.5;
+}
+
+.button {
+  display: inline-flex;
+  height: 2.25em;
+  padding: 1.2rem;
+  white-space: nowrap;
+  text-align: center;
+  vertical-align: top;
+  align-items: center;
+  font-weight: 800;
+  font-size: 18px;
+  border: 2px solid $gold;
+  color: $gold;
+  border-radius: 100px;
+  cursor: pointer;
 }
 
 .skills, .projects {

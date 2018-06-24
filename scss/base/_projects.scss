@@ -10,7 +10,69 @@
 }
 
 .col-card {
-  display: block;
+  display: inline-block;
+  position: relative;
   width: 100%;
   padding: .75rem;
+}
+
+
+//Hover overlay
+
+.project-container {
+  position: relative;
+  width: 100%;
+}
+
+.project-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: $gold;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.project-container:hover .overlay {
+  height: 100%;
+}
+
+.overlay-text {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-family: 'Heebo', sans-serif;
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1.5;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay-button {
+  color: white !important;
+  border: 1px solid white !important;
+  align-self: flex-end;
+}
+
+.overlay-content:not(:last-child) {
+  padding: 3rem;
 }
