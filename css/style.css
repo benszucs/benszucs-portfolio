@@ -363,7 +363,8 @@ h1, h2, h3, h4, h5, p, ul, li {
 
 .info {
   margin-top: -10rem;
-  padding: 5rem 1rem 5rem 1rem; }
+  padding: 5rem 1rem 5rem 1rem;
+  font-family: 'Heebo', sans-serif; }
 
 .info-content {
   display: flex;
