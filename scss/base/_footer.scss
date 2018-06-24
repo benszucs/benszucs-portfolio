@@ -3,7 +3,12 @@
 }
 
 .social-icon {
-  width: 55px;
+  font-size: 3rem;
+  color: $gold;
+  &:hover {
+    color: #4d4e4f;
+  }
+  transition: all .25s ease-in-out;
 }
 
 .social-icon-container {
@@ -11,8 +16,6 @@
   margin: auto;
   display: flex;
   justify-content: space-evenly;
-  color: $gold;
-  fill: currentColor;
 }
 
 .social-link {

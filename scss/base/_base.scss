@@ -98,6 +98,11 @@ h1, h2, h3, h4, h5, p, ul, li {font-family: "Heebo", sans-serif}
   color: $gold;
   border-radius: 100px;
   cursor: pointer;
+  &:hover {
+    background-color: $gold !important;
+    color: white !important;
+  }
+  transition: all .25s ease-in-out;
 }
 
 .skills, .projects {

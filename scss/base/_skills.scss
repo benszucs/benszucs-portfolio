@@ -20,12 +20,13 @@
 
 .icon-container {
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .skills-icon {
-  display: block;
-  width: 48px;
+  font-size: 3rem;
   margin: 0 auto;
+  color: $gold;
 }
 
 .list-title {
