@@ -9,7 +9,7 @@
   src: url("https://fonts.googleapis.com/css?family=Heebo:300");
 }
 
-h1, h2, h3, h4, h5, p, ul, li {font-family: "Heebo", sans-serif}
+body {font-family: "Heebo", sans-serif}
 
 .text-center {text-align: center !important}
 
@@ -49,11 +49,6 @@ h1, h2, h3, h4, h5, p, ul, li {font-family: "Heebo", sans-serif}
 .title-lg, .subtitle, .title-sm, .text, .title-md {
   word-break: break-word;
   margin-bottom: 1.5rem;
-}
-
-.title-lg, .subtitle {
-  font-family: "heebo", sans-serif !important;
-
 }
 
 .title-lg {

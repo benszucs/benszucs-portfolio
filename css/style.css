@@ -21,24 +21,11 @@
     border-right: 1px solid #D3D3D3 !important;
     border-radius: 0 !important; }
 
-  .overlay-content:not(:last-child) {
-    padding: 1rem !important;
-    font-size: 0.8rem !important; }
-
-  .overlay-button {
-    font-size: 0.8rem !important; }
-
   .fixed {
     width: 33.33%; }
 
   .projects-text {
     font-size: 0.8rem !important; } }
-@media screen and (min-width: 885px) {
-  .overlay-content:not(:last-child) {
-    font-size: 1rem !important; }
-
-  .overlay-button {
-    font-size: 1rem !important; } }
 @media screen and (min-width: 1088px) {
   .title-lg {
     font-size: 3rem !important; }
@@ -53,33 +40,10 @@
     width: 33.33% !important; }
 
   .just-center {
-    justify-content: center !important; }
-
-  .overlay-content:not(:last-child) {
-    padding: 1rem !important;
-    font-size: 0.8rem !important; }
-
-  .overlay-text {
-    padding: 1.5rem !important; }
-
-  .overlay-button {
-    font-size: 0.8rem !important; }
-
-  .projects-text {
-    font-size: 1rem !important; } }
+    justify-content: center !important; } }
 @media screen and (min-width: 1280px) {
   .wrapper {
-    width: 1152px !important; }
-
-  .overlay-content:not(:last-child) {
-    padding: 1rem !important;
-    font-size: 1rem !important; }
-
-  .overlay-text {
-    padding: 2rem !important; }
-
-  .overlay-button {
-    font-size: 1rem !important; } }
+    width: 1152px !important; } }
 @media screen and (min-width: 1472px) {
   .wrapper {
     width: 1344px !important; } }
@@ -112,7 +76,7 @@ a {
 @font-face {
   font-family: 'Heebo';
   src: url("https://fonts.googleapis.com/css?family=Heebo:300"); }
-h1, h2, h3, h4, h5, p, ul, li {
+body {
   font-family: "Heebo", sans-serif; }
 
 .text-center {
@@ -159,9 +123,6 @@ h1, h2, h3, h4, h5, p, ul, li {
 .title-lg, .subtitle, .title-sm, .text, .title-md {
   word-break: break-word;
   margin-bottom: 1.5rem; }
-
-.title-lg, .subtitle {
-  font-family: "heebo", sans-serif !important; }
 
 .title-lg {
   font-weight: 800;
@@ -345,14 +306,11 @@ h1, h2, h3, h4, h5, p, ul, li {
   width: 100%;
   height: 100%;
   position: absolute;
-  padding: 3rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
   color: white;
-  font-family: 'Heebo', sans-serif;
-  font-size: 1rem;
   font-weight: 100;
   line-height: 1.5;
   top: 50%;
@@ -370,13 +328,19 @@ h1, h2, h3, h4, h5, p, ul, li {
     background-color: white !important;
     color: #c5954e !important; }
 
+.overlay-content {
+  width: 60%; }
+
 .overlay-content:not(:last-child) {
-  padding: 3rem; }
+  margin-bottom: 1rem; }
+
+.overlay-content > span {
+  word-break: break-word;
+  font-size: 0.8rem !important; }
 
 .info {
   margin-top: -10rem;
-  padding: 5rem 1rem 5rem 1rem;
-  font-family: 'Heebo', sans-serif; }
+  padding: 5rem 1rem 5rem 1rem; }
 
 .info-content {
   display: flex;
@@ -466,13 +430,12 @@ h1, h2, h3, h4, h5, p, ul, li {
   cursor: pointer; }
 
 .modal-projects {
-  padding: 3rem 2rem 5rem 2rem;
-  font-family: "Heebo", sans-serif; }
+  padding: 3rem 2rem 5rem 2rem; }
 
 .modal-project-img {
   display: block;
   width: 100%;
-  max-width: 300px !important;
+  max-width: 600px !important;
   margin: 0 auto 1rem auto;
   border-radius: 12px; }
 
