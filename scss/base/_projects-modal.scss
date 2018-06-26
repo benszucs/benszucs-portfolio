@@ -6,17 +6,17 @@
 .modal-project-img {
   display: block;
   width: 100%;
-  max-width: 500px;
-  margin: 0 auto;
+  max-width: 300px !important;
+  margin: 0 auto 1rem auto;
   border-radius: 12px;
 }
 
 .fixed {
-  width: 33.33%;
-  padding: 2rem;
+  padding: 2rem !important;
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .temp-container {
@@ -32,4 +32,10 @@
 
 .fixed > img {
   border-radius: 12px;
+}
+
+.projects-text {max-width: 350px}
+.fa-desktop {
+  font-size: 2.7rem;
+  margin-left: 1rem;
 }

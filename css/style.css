@@ -26,6 +26,12 @@
     font-size: 0.8rem !important; }
 
   .overlay-button {
+    font-size: 0.8rem !important; }
+
+  .fixed {
+    width: 33.33%; }
+
+  .projects-text {
     font-size: 0.8rem !important; } }
 @media screen and (min-width: 885px) {
   .overlay-content:not(:last-child) {
@@ -57,7 +63,10 @@
     padding: 1.5rem !important; }
 
   .overlay-button {
-    font-size: 0.8rem !important; } }
+    font-size: 0.8rem !important; }
+
+  .projects-text {
+    font-size: 1rem !important; } }
 @media screen and (min-width: 1280px) {
   .wrapper {
     width: 1152px !important; }
@@ -415,8 +424,7 @@ h1, h2, h3, h4, h5, p, ul, li {
   /* Sit on top */
   left: 0;
   top: 0;
-  width: 100%;
-  /* Full width */
+  width: 100vw;
   height: 100%;
   /* Full height */
   overflow: auto;
@@ -435,7 +443,8 @@ h1, h2, h3, h4, h5, p, ul, li {
   padding: 20px;
   border: 1px solid #D3D3D3;
   border-radius: 12px;
-  width: 80%;
+  width: 90%;
+  max-width: 960px;
   /* Could be more or less, depending on screen size */ }
 
 /* The Close Button */
@@ -463,16 +472,16 @@ h1, h2, h3, h4, h5, p, ul, li {
 .modal-project-img {
   display: block;
   width: 100%;
-  max-width: 500px;
-  margin: 0 auto;
+  max-width: 300px !important;
+  margin: 0 auto 1rem auto;
   border-radius: 12px; }
 
 .fixed {
-  width: 33.33%;
-  padding: 2rem;
+  padding: 2rem !important;
   display: flex;
-  justify-content: space-between;
-  flex-direction: column; }
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
 
 .temp-container {
   text-align: center; }
@@ -485,5 +494,12 @@ h1, h2, h3, h4, h5, p, ul, li {
 
 .fixed > img {
   border-radius: 12px; }
+
+.projects-text {
+  max-width: 350px; }
+
+.fa-desktop {
+  font-size: 2.7rem;
+  margin-left: 1rem; }
 
 /*# sourceMappingURL=style.css.map */
