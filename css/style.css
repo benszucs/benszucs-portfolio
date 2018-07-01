@@ -9,13 +9,17 @@
     font-size: 2rem !important; }
 
   .intro-content, .outro-content {
-    width: 70%; }
+    width: 70% !important; }
 
   .skills-content {
     display: flex; }
 
   .col-card {
     width: 50% !important; }
+
+  .col-3 {
+    width: 33.33% !important;
+    border-bottom: 0 !important; }
 
   .col-3:not(:last-child) {
     border-right: 1px solid #D3D3D3 !important;
@@ -25,7 +29,10 @@
     width: 33.33%; }
 
   .projects-text {
-    font-size: 0.8rem !important; } }
+    font-size: 0.8rem !important; }
+
+  .is-narrow {
+    width: 80% !important; } }
 @media screen and (min-width: 1088px) {
   .title-lg {
     font-size: 3rem !important; }
@@ -40,13 +47,22 @@
     width: 33.33% !important; }
 
   .just-center {
-    justify-content: center !important; } }
+    justify-content: center !important; }
+
+  .projects-text {
+    font-size: 1rem !important; }
+
+  .is-narrow {
+    width: 60% !important; } }
 @media screen and (min-width: 1280px) {
   .wrapper {
     width: 1152px !important; } }
 @media screen and (min-width: 1472px) {
   .wrapper {
     width: 1344px !important; } }
+@media screen and (min-width: 475px) {
+  .overlay-content > span {
+    font-size: 1rem !important; } }
 html {
   box-sizing: border-box;
   font-size: 16px; }
@@ -93,6 +109,9 @@ body {
   max-width: 1200px;
   margin: 0 auto; }
 
+.is-narrow {
+  margin: 0 auto; }
+
 .rounded {
   border-radius: 50%; }
 
@@ -118,7 +137,7 @@ body {
   background-color: #c5954e; }
 
 .text-shadow {
-  text-shadow: #343a40 1px 1px; }
+  text-shadow: #c5954e 1px 1px; }
 
 .title-lg, .subtitle, .title-sm, .text, .title-md {
   word-break: break-word;
@@ -184,13 +203,12 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  background-image: url("../img/hero.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/hero2.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: -1;
-  opacity: 0.6; }
+  z-index: -1; }
 
 .logo {
   max-height: 3rem; }
@@ -350,6 +368,7 @@ body {
   border: 1px solid #D3D3D3; }
 
 .flex-grow {
+  padding: 0 1rem;
   flex-grow: 1;
   align-self: center;
   color: #4d4e4f !important; }
@@ -435,7 +454,7 @@ body {
 .modal-project-img {
   display: block;
   width: 100%;
-  max-width: 600px !important;
+  max-width: 350px !important;
   margin: 0 auto 1rem auto;
   border-radius: 12px; }
 

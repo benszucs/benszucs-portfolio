@@ -25,6 +25,8 @@ body {font-family: "Heebo", sans-serif}
   margin: 0 auto;
 }
 
+.is-narrow {margin: 0 auto;}
+
 .rounded {border-radius: 50%}
 
 .border-radius {
@@ -44,7 +46,7 @@ body {font-family: "Heebo", sans-serif}
 
 .gold-bg {background-color: $gold}
 
-.text-shadow {text-shadow: #343a40 1px 1px;}
+.text-shadow {text-shadow: $gold 1px 1px;}
 
 .title-lg, .subtitle, .title-sm, .text, .title-md {
   word-break: break-word;
@@ -80,6 +82,18 @@ body {font-family: "Heebo", sans-serif}
   font-weight: 100;
   line-height: 1.5;
 }
+
+// .title-backlay {
+//   background-color: $gold;
+//   padding: 1.5rem;
+//   border-radius: 12px;
+// }
+//
+// .title-border {
+//   padding: 1rem;
+//   border: solid 1px white;
+//   border-radius: 12px;
+// }
 
 .button {
   display: inline-flex;

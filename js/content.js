@@ -13,11 +13,11 @@ $(document).ready(function() {
   });
 
   $('#project4').click(function() {
-    $('#modal-projects').load('../projects/movie.html').hide().show();
+    $('#modal-projects').load('../projects/weather.html').hide().show();
   });
 
   $('#project5').click(function() {
-    $('#modal-projects').load('../projects/weather.html').hide().show();
+    $('#modal-projects').load('../projects/movie.html').hide().show();
   });
 
   $('#project6').click(function() {
